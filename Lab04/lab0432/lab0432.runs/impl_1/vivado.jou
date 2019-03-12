@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Mar 22 22:57:10 2018
+# Process ID: 16292
+# Current directory: D:/Jack/NTHU/2018_spring/LD exp/Lab04/lab0432/lab0432.runs/impl_1
+# Command line: vivado.exe -log lab043_test.vdi -applog -messageDb vivado.pb -mode batch -source lab043_test.tcl -notrace
+# Log file: D:/Jack/NTHU/2018_spring/LD exp/Lab04/lab0432/lab0432.runs/impl_1/lab043_test.vdi
+# Journal file: D:/Jack/NTHU/2018_spring/LD exp/Lab04/lab0432/lab0432.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lab043_test.tcl -notrace

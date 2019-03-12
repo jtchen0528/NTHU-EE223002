@@ -1,0 +1,420 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Apr 30 16:18:45 2018
+# Process ID: 2384
+# Current directory: D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.runs/synth_1
+# Command line: vivado.exe -log wrapper.vds -mode batch -messageDb vivado.pb -notrace -source wrapper.tcl
+# Log file: D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.runs/synth_1/wrapper.vds
+# Journal file: D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source wrapper.tcl -notrace
+Command: synth_design -top wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2464 
+WARNING: [Synth 8-2611] redeclaration of ansi port display is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:30]
+WARNING: [Synth 8-2611] redeclaration of ansi port display_c is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:31]
+WARNING: [Synth 8-2611] redeclaration of ansi port display is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v:28]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 284.590 ; gain = 77.980
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'wrapper' [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/sources_1/new/wrapper.v:1]
+INFO: [Synth 8-638] synthesizing module 'freq_div' [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/frequency_divider.v:23]
+INFO: [Synth 8-256] done synthesizing module 'freq_div' (1#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/frequency_divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'keyboard' [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/sources_1/new/keyboard.v:1]
+INFO: [Synth 8-256] done synthesizing module 'keyboard' (2#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/sources_1/new/keyboard.v:1]
+INFO: [Synth 8-638] synthesizing module 'ssd' [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ssd' (3#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v:23]
+INFO: [Synth 8-638] synthesizing module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:35]
+INFO: [Synth 8-256] done synthesizing module 'ssd_ctl' (4#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'display0' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/sources_1/new/wrapper.v:46]
+WARNING: [Synth 8-689] width (8) of port connection 'display1' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/sources_1/new/wrapper.v:47]
+WARNING: [Synth 8-689] width (8) of port connection 'display2' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/sources_1/new/wrapper.v:48]
+WARNING: [Synth 8-689] width (8) of port connection 'display3' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/sources_1/new/wrapper.v:49]
+INFO: [Synth 8-256] done synthesizing module 'wrapper' (5#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/sources_1/new/wrapper.v:1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[6]
+WARNING: [Synth 8-3331] design keyboard has unconnected port clk_out
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 314.504 ; gain = 107.895
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 314.504 ; gain = 107.895
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/constrs_1/new/lab094_XDC.xdc]
+Finished Parsing XDC File [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/constrs_1/new/lab094_XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Jack/NTHU/2018_spring/LD exp/Lab09/Lab094/Lab094.srcs/constrs_1/new/lab094_XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 604.840 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "scan_err" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "ASCII" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   9 Input      1 Bit         XORs := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	  28 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 5     
+	  26 Input      8 Bit        Muxes := 2     
+	  11 Input      8 Bit        Muxes := 4     
+	  26 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 35    
+	  27 Input      7 Bit        Muxes := 5     
+	  26 Input      5 Bit        Muxes := 3     
+	  27 Input      5 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 12    
+	  27 Input      3 Bit        Muxes := 3     
+	   4 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	  26 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 88    
+	  26 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	  27 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module keyboard 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   9 Input      1 Bit         XORs := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	  28 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5     
+	  26 Input      8 Bit        Muxes := 2     
+	  26 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 35    
+	  27 Input      7 Bit        Muxes := 5     
+	  26 Input      5 Bit        Muxes := 3     
+	  27 Input      5 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 12    
+	  27 Input      3 Bit        Muxes := 3     
+	   4 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	  26 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 88    
+	  26 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	  27 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module ssd 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      8 Bit        Muxes := 1     
+Module ssd_ctl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "TestingKeyboard/ASCII" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-3917] design wrapper has port ASCII[9] driven by constant 0
+WARNING: [Synth 8-3917] design wrapper has port ASCII[8] driven by constant 0
+WARNING: [Synth 8-3917] design wrapper has port ASCII[7] driven by constant 0
+WARNING: [Synth 8-3917] design wrapper has port display[7] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 604.840 ; gain = 398.230
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (Ufd/cnt_reg[21]) is unused and will be removed from module wrapper.
+WARNING: [Synth 8-3332] Sequential element (Ufd/cnt_reg[22]) is unused and will be removed from module wrapper.
+WARNING: [Synth 8-3332] Sequential element (Ufd/cnt_reg[23]) is unused and will be removed from module wrapper.
+WARNING: [Synth 8-3332] Sequential element (Ufd/cnt_reg[24]) is unused and will be removed from module wrapper.
+WARNING: [Synth 8-3332] Sequential element (Ufd/cnt_reg[25]) is unused and will be removed from module wrapper.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 604.840 ; gain = 398.230
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 604.840 ; gain = 398.230
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     9|
+|3     |LUT1   |    35|
+|4     |LUT2   |    24|
+|5     |LUT3   |    14|
+|6     |LUT4   |    22|
+|7     |LUT5   |    17|
+|8     |LUT6   |    72|
+|9     |FDCE   |    21|
+|10    |FDRE   |    64|
+|11    |FDSE   |     5|
+|12    |IBUF   |     4|
+|13    |OBUF   |    24|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+---------+------+
+|      |Instance          |Module   |Cells |
++------+------------------+---------+------+
+|1     |top               |         |   312|
+|2     |  TestingKeyboard |keyboard |   231|
+|3     |  Ufd             |freq_div |    52|
++------+------------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 604.840 ; gain = 398.230
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 604.840 ; gain = 107.895
+Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 604.840 ; gain = 398.230
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 45 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 604.840 ; gain = 398.230
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 604.840 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 30 16:19:32 2018...

@@ -1,0 +1,38 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 679d8ae810f7402ab080d65104f63562 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot speaker_t_behav xil_defaultlib.speaker_t xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 15 for port display0 [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:76]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 15 for port display1 [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:77]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 15 for port display2 [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:78]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 15 for port display3 [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:79]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/frequency_divider.v" Line 23. Module freq_div has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" Line 23. Module ssd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" Line 23. Module ssd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" Line 23. Module ssd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" Line 23. Module ssd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v" Line 23. Module ssd_ctl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/frequency_divider.v" Line 23. Module freq_div has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" Line 23. Module ssd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" Line 23. Module ssd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" Line 23. Module ssd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" Line 23. Module ssd has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v" Line 23. Module ssd_ctl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.freq_div
+Compiling module xil_defaultlib.volume
+Compiling module xil_defaultlib.music
+Compiling module xil_defaultlib.note_gen
+Compiling module xil_defaultlib.speaker_control
+Compiling module xil_defaultlib.ssd
+Compiling module xil_defaultlib.ssd_ctl
+Compiling module xil_defaultlib.speaker
+Compiling module xil_defaultlib.speaker_t
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot speaker_t_behav

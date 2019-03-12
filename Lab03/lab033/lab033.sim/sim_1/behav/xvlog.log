@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab03/lab033/lab033.srcs/sources_1/new/lab033.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab033
+WARNING: [VRFC 10-1315] redeclaration of ansi port b is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab03/lab033/lab033.srcs/sources_1/new/lab033.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab03/lab033/lab033.srcs/sim_1/new/lab033_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab033_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab03/lab033/lab033.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

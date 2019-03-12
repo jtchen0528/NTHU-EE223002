@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Mar 18 19:36:15 2018
+# Process ID: 11600
+# Current directory: D:/Jack/NTHU/2018_spring/LD exp/Lab03/lab034/lab034.runs/impl_1
+# Command line: vivado.exe -log lab034_ssd.vdi -applog -messageDb vivado.pb -mode batch -source lab034_ssd.tcl -notrace
+# Log file: D:/Jack/NTHU/2018_spring/LD exp/Lab03/lab034/lab034.runs/impl_1/lab034_ssd.vdi
+# Journal file: D:/Jack/NTHU/2018_spring/LD exp/Lab03/lab034/lab034.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lab034_ssd.tcl -notrace

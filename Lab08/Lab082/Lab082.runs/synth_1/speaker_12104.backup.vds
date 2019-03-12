@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Apr 23 17:52:21 2018
+# Process ID: 12104
+# Current directory: D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.runs/synth_1
+# Command line: vivado.exe -log speaker.vds -mode batch -messageDb vivado.pb -notrace -source speaker.tcl
+# Log file: D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.runs/synth_1/speaker.vds
+# Journal file: D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source speaker.tcl -notrace
+Command: synth_design -top speaker -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11400 
+WARNING: [Synth 8-2611] redeclaration of ansi port audio_sdin is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:13]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 283.695 ; gain = 76.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'speaker' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:1]
+INFO: [Synth 8-638] synthesizing module 'note_gen' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/note_gen.v:1]
+INFO: [Synth 8-256] done synthesizing module 'note_gen' (1#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/note_gen.v:1]
+INFO: [Synth 8-638] synthesizing module 'speaker_control' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:47]
+INFO: [Synth 8-256] done synthesizing module 'speaker_control' (2#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:1]
+INFO: [Synth 8-256] done synthesizing module 'speaker' (3#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 302.559 ; gain = 95.473
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 302.559 ; gain = 95.473
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/constrs_1/new/speaker_XDC.xdc]
+Finished Parsing XDC File [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/constrs_1/new/speaker_XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/constrs_1/new/speaker_XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/speaker_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/speaker_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 587.430 ; gain = 0.000

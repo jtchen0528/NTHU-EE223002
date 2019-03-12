@@ -1,0 +1,446 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Apr 09 16:09:04 2018
+# Process ID: 15948
+# Current directory: D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab064/lab064.runs/synth_1
+# Command line: vivado.exe -log clock_disp.vds -mode batch -messageDb vivado.pb -notrace -source clock_disp.tcl
+# Log file: D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab064/lab064.runs/synth_1/clock_disp.vds
+# Journal file: D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab064/lab064.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source clock_disp.tcl -notrace
+Command: synth_design -top clock_disp -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15408 
+WARNING: [Synth 8-2611] redeclaration of ansi port display is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/ssd.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port freeze_enable is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/FSM.v:10]
+WARNING: [Synth 8-2611] redeclaration of ansi port mode is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/FSM.v:11]
+WARNING: [Synth 8-2611] redeclaration of ansi port display is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/ssd_ctl.v:8]
+WARNING: [Synth 8-2611] redeclaration of ansi port display_c is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/ssd_ctl.v:9]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 283.238 ; gain = 76.320
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'clock_disp' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:23]
+INFO: [Synth 8-638] synthesizing module 'freq_div' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab064/lab064.srcs/sources_1/new/freq_div.v:32]
+INFO: [Synth 8-256] done synthesizing module 'freq_div' (1#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab064/lab064.srcs/sources_1/new/freq_div.v:32]
+INFO: [Synth 8-638] synthesizing module 'FSM' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/FSM.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/FSM.v:27]
+INFO: [Synth 8-256] done synthesizing module 'FSM' (2#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/FSM.v:2]
+INFO: [Synth 8-638] synthesizing module 'clock' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/watch2.v:23]
+WARNING: [Synth 8-151] case item 6'b001011 is unreachable [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/watch2.v:141]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/watch2.v:141]
+INFO: [Synth 8-256] done synthesizing module 'clock' (3#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/watch2.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'am' does not match port width (1) of module 'clock' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:71]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:115]
+WARNING: [Synth 8-567] referenced signal 'min0' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'min1' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'hr0' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'hr1' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'sec0' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'sec1' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'date0' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'date1' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'month0' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'month1' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'year0' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'year1' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'year2' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+WARNING: [Synth 8-567] referenced signal 'year3' should be on the sensitivity list [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:105]
+INFO: [Synth 8-638] synthesizing module 'ssd' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/ssd.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ssd' (4#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/ssd.v:23]
+INFO: [Synth 8-638] synthesizing module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/ssd_ctl.v:1]
+INFO: [Synth 8-226] default block is never used [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/ssd_ctl.v:13]
+INFO: [Synth 8-256] done synthesizing module 'ssd_ctl' (5#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/ssd_ctl.v:1]
+WARNING: [Synth 8-689] width (8) of port connection 'display0' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:196]
+WARNING: [Synth 8-689] width (8) of port connection 'display1' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:197]
+WARNING: [Synth 8-689] width (8) of port connection 'display2' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:198]
+WARNING: [Synth 8-689] width (8) of port connection 'display3' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:199]
+WARNING: [Synth 8-5788] Register dig0_out_reg in module clock_disp is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:86]
+WARNING: [Synth 8-5788] Register dig1_out_reg in module clock_disp is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:87]
+WARNING: [Synth 8-5788] Register dig2_out_reg in module clock_disp is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:88]
+WARNING: [Synth 8-5788] Register dig3_out_reg in module clock_disp is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:89]
+INFO: [Synth 8-256] done synthesizing module 'clock_disp' (6#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:23]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[6]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 303.168 ; gain = 96.250
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 303.168 ; gain = 96.250
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/constrs_1/new/lab061_XDC.xdc]
+Finished Parsing XDC File [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/constrs_1/new/lab061_XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/constrs_1/new/lab061_XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/clock_disp_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/clock_disp_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 595.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "min" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'freeze_enable_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/FSM.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'mode_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/FSM.v:30]
+WARNING: [Synth 8-327] inferring latch for variable 'next_state_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/FSM.v:34]
+WARNING: [Synth 8-327] inferring latch for variable 'hram_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/watch2.v:69]
+WARNING: [Synth 8-327] inferring latch for variable 'led_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:48]
+WARNING: [Synth 8-327] inferring latch for variable 'dig0_latch_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:109]
+WARNING: [Synth 8-327] inferring latch for variable 'dig1_latch_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:110]
+WARNING: [Synth 8-327] inferring latch for variable 'dig2_latch_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:111]
+WARNING: [Synth 8-327] inferring latch for variable 'dig3_latch_reg' [D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab061/lab061.srcs/sources_1/new/clock_disp.v:112]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 5     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  11 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 13    
+	   4 Input      6 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 12    
+	   6 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 2     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clock_disp 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 12    
+	   6 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module FSM 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+Module clock 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 6     
++---Registers : 
+	                6 Bit    Registers := 5     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 13    
+	   4 Input      6 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 2     
+Module ssd 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      8 Bit        Muxes := 1     
+Module ssd_ctl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design clock_disp has port display[7] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 595.367 ; gain = 388.449
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U_fsm/freeze_enable_reg )
+WARNING: [Synth 8-3332] Sequential element (U_fsm/freeze_enable_reg) is unused and will be removed from module clock_disp.
+WARNING: [Synth 8-3332] Sequential element (apm_reg) is unused and will be removed from module clock.
+WARNING: [Synth 8-3332] Sequential element (hram_reg[5]) is unused and will be removed from module clock.
+WARNING: [Synth 8-3332] Sequential element (hram_reg[4]) is unused and will be removed from module clock.
+WARNING: [Synth 8-3332] Sequential element (hram_reg[3]) is unused and will be removed from module clock.
+WARNING: [Synth 8-3332] Sequential element (hram_reg[2]) is unused and will be removed from module clock.
+WARNING: [Synth 8-3332] Sequential element (hram_reg[1]) is unused and will be removed from module clock.
+WARNING: [Synth 8-3332] Sequential element (hram_reg[0]) is unused and will be removed from module clock.
+WARNING: [Synth 8-3332] Sequential element (U_FD/cnt_reg[21]) is unused and will be removed from module clock_disp.
+WARNING: [Synth 8-3332] Sequential element (U_FD/cnt_reg[22]) is unused and will be removed from module clock_disp.
+WARNING: [Synth 8-3332] Sequential element (U_FD/cnt_reg[23]) is unused and will be removed from module clock_disp.
+WARNING: [Synth 8-3332] Sequential element (U_FD/cnt_reg[24]) is unused and will be removed from module clock_disp.
+WARNING: [Synth 8-3332] Sequential element (U_FD/cnt_reg[25]) is unused and will be removed from module clock_disp.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 595.367 ; gain = 388.449
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 595.367 ; gain = 388.449
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 620.012 ; gain = 413.094
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |   104|
+|3     |LUT1   |    80|
+|4     |LUT2   |   152|
+|5     |LUT3   |   159|
+|6     |LUT4   |   197|
+|7     |LUT5   |   103|
+|8     |LUT6   |   179|
+|9     |MUXF7  |    17|
+|10    |MUXF8  |     7|
+|11    |FDCE   |    83|
+|12    |FDPE   |    23|
+|13    |LD     |    23|
+|14    |LDC    |    14|
+|15    |IBUF   |     6|
+|16    |OBUF   |    13|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+---------+------+
+|      |Instance |Module   |Cells |
++------+---------+---------+------+
+|1     |top      |         |  1162|
+|2     |  U_FD   |freq_div |    73|
+|3     |  U_fsm  |FSM      |    15|
+|4     |  uutt   |clock    |   801|
++------+---------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.012 ; gain = 413.094
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 23 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 620.012 ; gain = 120.895
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 620.012 ; gain = 413.094
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 147 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 37 instances were transformed.
+  LD => LDCE: 23 instances
+  LDC => LDCE: 14 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 80 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 620.012 ; gain = 413.094
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 620.012 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 09 16:09:46 2018...

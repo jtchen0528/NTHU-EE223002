@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../lab061.srcs/sources_1/new/watch2.v" -i "../../../lab061.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../lab061.srcs/sim_1/new/watch2_t.v" -i "../../../lab061.srcs/sources_1/new"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

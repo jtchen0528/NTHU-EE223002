@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1522664598">
+  <File Type="ROUTE-STATUS-PB" Name="stopwatch_disp_route_status.pb"/>
+  <File Type="PA-TCL" Name="stopwatch_disp.tcl"/>
+  <File Type="OPT-DCP" Name="stopwatch_disp_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="stopwatch_disp_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="stopwatch_disp_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="stopwatch_disp.vdi"/>
+  <File Type="PWROPT-DRC" Name="stopwatch_disp_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="stopwatch_disp_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="stopwatch_disp_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="stopwatch_disp.hwdef"/>
+  <File Type="OPT-TIMING" Name="stopwatch_disp_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="stopwatch_disp_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="stopwatch_disp_placed.dcp"/>
+  <File Type="PLACE-IO" Name="stopwatch_disp_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="stopwatch_disp_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="stopwatch_disp_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="stopwatch_disp_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="stopwatch_disp_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="stopwatch_disp_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="stopwatch_disp_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="stopwatch_disp_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="stopwatch_disp_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="stopwatch_disp_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="stopwatch_disp_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="stopwatch_disp_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="stopwatch_disp_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="stopwatch_disp_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="stopwatch_disp_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="stopwatch_disp_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="stopwatch_disp_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="stopwatch_disp_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="stopwatch_disp_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="stopwatch_disp.bit"/>
+  <File Type="ROUTE-PWR" Name="stopwatch_disp_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="stopwatch_disp_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="stopwatch_disp_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="stopwatch_disp_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="stopwatch_disp_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="stopwatch_disp_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="stopwatch_disp_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="stopwatch_disp_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="stopwatch_disp_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="stopwatch_disp_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="stopwatch_disp_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="stopwatch_disp_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="stopwatch_disp_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="stopwatch_disp_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="stopwatch_disp.bin"/>
+  <File Type="BITSTR-MSK" Name="stopwatch_disp.msk"/>
+  <File Type="BITSTR-RBT" Name="stopwatch_disp.rbt"/>
+  <File Type="BITSTR-NKY" Name="stopwatch_disp.nky"/>
+  <File Type="BITSTR-BMM" Name="stopwatch_disp_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="stopwatch_disp.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="stopwatch_disp.sysdef"/>
+  <File Type="BG-BGN" Name="stopwatch_disp.bgn"/>
+  <File Type="BG-DRC" Name="stopwatch_disp.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/downcounter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ssd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FSM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/frequency_divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stopwatch.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ssd_ctl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stopwatch_disp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/global.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/stopwatchFSM.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/freq_div2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="stopwatch_disp"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/stopwatch_disp_XDC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

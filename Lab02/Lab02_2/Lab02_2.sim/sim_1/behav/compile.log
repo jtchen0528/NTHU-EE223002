@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab02/Lab02_2/Lab02_2.srcs/sources_1/new/lab022.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab022
+WARNING: [VRFC 10-1315] redeclaration of ansi port D_ssd is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab02/Lab02_2/Lab02_2.srcs/sources_1/new/lab022.v:37]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab02/Lab02_2/Lab02_2.srcs/sim_1/new/lab022_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab022_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab02/Lab02_2/Lab02_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

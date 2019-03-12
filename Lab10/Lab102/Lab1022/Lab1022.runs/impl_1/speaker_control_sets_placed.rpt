@@ -1,0 +1,67 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun May 13 22:53:15 2018
+| Host         : Jack-GL552VW running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file speaker_control_sets_placed.rpt
+| Design       : speaker
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    47 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              28 |           11 |
+| No           | No                    | Yes                    |              56 |           17 |
+| No           | Yes                   | No                     |              16 |            5 |
+| Yes          | No                    | No                     |              35 |           10 |
+| Yes          | No                    | Yes                    |               6 |            1 |
+| Yes          | Yes                   | No                     |              20 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+------------------------+------------------------------+------------------+----------------+
+|          Clock Signal         |      Enable Signal     |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++-------------------------------+------------------------+------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG                | Ukb/TRIGGER            |                              |                1 |              1 |
+|  clk_IBUF_BUFG                | Usc/audio_sdin_i_1_n_0 |                              |                1 |              1 |
+|  clk_IBUF_BUFG                | Ukb/COUNT              | Ukb/COUNT[3]_i_1_n_0         |                1 |              4 |
+|  clk_IBUF_BUFG                | Ukb/notes0             | Ukb/notes[3]_i_1_n_0         |                2 |              4 |
+|  clk_IBUF_BUFG                |                        |                              |                4 |              6 |
+|  clk_IBUF_BUFG                | Usc/sdincnt[5]_i_1_n_0 | rst_n_IBUF                   |                1 |              6 |
+|  clk_IBUF_BUFG                |                        | Ukb/CODEWORD[7]_i_1_n_0      |                3 |              8 |
+|  clk_IBUF_BUFG                |                        | Ukb/DOWNCOUNTER[7]_i_1_n_0   |                2 |              8 |
+|  clk_IBUF_BUFG                | Ukb/cnt2[10]_i_1_n_0   |                              |                4 |             11 |
+|  clk_IBUF_BUFG                | Ukb/cnt[10]_i_1_n_0    |                              |                2 |             11 |
+|  clk_IBUF_BUFG                | Ukb/read4_out          |                              |                2 |             11 |
+|  clk_IBUF_BUFG                | Ukb/TRIGGER            | Ukb/count_reading[0]_i_1_n_0 |                3 |             12 |
+|  Unt/note_div_inferred__0_n_0 |                        |                              |                7 |             22 |
+|  clk_IBUF_BUFG                |                        | rst_n_IBUF                   |               17 |             56 |
++-------------------------------+------------------------+------------------------------+------------------+----------------+
+
+

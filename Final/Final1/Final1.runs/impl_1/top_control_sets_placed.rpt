@@ -1,0 +1,82 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Jun 21 15:20:35 2018
+| Host         : Jack-GL552VW running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    29 |
+| Unused register locations in slices containing registers |   123 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              44 |           22 |
+| No           | No                    | Yes                    |              83 |           25 |
+| No           | Yes                   | No                     |              59 |           17 |
+| Yes          | No                    | No                     |              58 |           20 |
+| Yes          | No                    | Yes                    |              52 |           21 |
+| Yes          | Yes                   | No                     |              45 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+---------------------------------------+-------------------------------+------------------+----------------+
+|          Clock Signal         |             Enable Signal             |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++-------------------------------+---------------------------------------+-------------------------------+------------------+----------------+
+|  clk_22_BUFG                  |                                       |                               |                1 |              1 |
+|  clk_IBUF_BUFG                | Ukb/TRIGGER                           |                               |                1 |              1 |
+|  lopt_1                       |                                       | rst_IBUF                      |                2 |              2 |
+|  clk_22_BUFG                  |                                       | rst_IBUF                      |                2 |              3 |
+|  U_sp/Ufd/cnt_reg[0]          | U_sp/Uvl/vol[3]_i_1_n_0               | rst_IBUF                      |                1 |              4 |
+|  clk_IBUF_BUFG                | Ukb/COUNT                             | Ukb/COUNT[3]_i_1_n_0          |                1 |              4 |
+|  clk_IBUF_BUFG                | U_sp/Usc/sdincnt[3]_i_1_n_0           | rst_IBUF                      |                1 |              4 |
+|  clk_wiz_0_inst/clk_1s        |                                       | rst_IBUF                      |                3 |              6 |
+|  clk_wiz_0_inst/clk_1s        | mem_addr_gen_inst/min_reg[5]          | rst_IBUF                      |                3 |              6 |
+|  mem_addr_gen_inst/clk_random |                                       | Urandom/out_n_0               |                1 |              6 |
+|  clk_22_BUFG                  | U_pt/E[0]                             |                               |                2 |              6 |
+|  clk_IBUF_BUFG                | Ukb/__1_n_0                           |                               |                5 |              6 |
+|  clk_22_BUFG                  | mem_addr_gen_inst/position[7]_i_1_n_0 | rst_IBUF                      |                3 |              8 |
+|  clk_IBUF_BUFG                |                                       | Ukb/CODEWORD[7]_i_1_n_0       |                2 |              8 |
+|  clk_IBUF_BUFG                |                                       | Ukb/clear                     |                2 |              8 |
+|  clk_IBUF_BUFG                | mem_addr_gen_inst/E[0]                | rst_IBUF                      |                4 |              9 |
+|  lopt_1                       |                                       |                               |                5 |             10 |
+|  lopt_1                       |                                       | vga_inst/pixel_cnt[9]_i_1_n_0 |                3 |             10 |
+|  lopt_1                       | vga_inst/line_cnt                     | vga_inst/line_cnt[9]_i_1_n_0  |                3 |             10 |
+|  clk_IBUF_BUFG                | Ukb/cnt2_1                            |                               |                4 |             11 |
+|  clk_IBUF_BUFG                | Ukb/cnt[10]_i_1_n_0                   |                               |                3 |             11 |
+|  clk_IBUF_BUFG                | Ukb/read8_out                         |                               |                2 |             11 |
+|  clk_IBUF_BUFG                | Ukb/TRIGGER                           | Ukb/count_reading             |                3 |             12 |
+|  clk_IBUF_BUFG                | U_sp/Ung/volu_reg[12]_0               |                               |                3 |             12 |
+|  clk_IBUF_BUFG                | U_sp/Unt/note_div_inferred__0_n_0     | U_sp/Unt/note_div_n_0         |                4 |             19 |
+|  clk_22_BUFG                  | mem_addr_gen_inst/points[15]_i_1_n_0  | rst_IBUF                      |                9 |             21 |
+|  clk_IBUF_BUFG                |                                       | clk_wiz_0_inst/clk_1s_0       |                7 |             25 |
+|  clk_IBUF_BUFG                |                                       |                               |               16 |             33 |
+|  clk_IBUF_BUFG                |                                       | rst_IBUF                      |               20 |             74 |
++-------------------------------+---------------------------------------+-------------------------------+------------------+----------------+
+
+

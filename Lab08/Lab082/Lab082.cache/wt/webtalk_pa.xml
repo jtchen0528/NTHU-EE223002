@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Fri Jun 01 16:19:02 2018">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="811955326a1f4ecbb8342f5b67c82704" type="ProjectID"/>
+<property name="ProjectIteration" value="38" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="14" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditRedo" value="3" type="JavaHandler"/>
+<property name="EditUndo" value="4" type="JavaHandler"/>
+<property name="LaunchOpenTarget" value="16" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="43" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="17" type="JavaHandler"/>
+<property name="OpenProject" value="4" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="4" type="JavaHandler"/>
+<property name="RunBitgen" value="37" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="14" type="JavaHandler"/>
+<property name="SetSourceEnabled" value="4" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
+<property name="SimulationClose" value="3" type="JavaHandler"/>
+<property name="SimulationRun" value="12" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_PROJECT, Open Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, speaker_XDC.xdc], 17, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, speaker_XDC.xdc], 17, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 15" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, speaker (speaker.v" value="36" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="2" type="GuiResourceData"/>
+<property name="note_gen.v, 180, 183" value="1" type="GuiResourceData"/>
+<property name="note_gen.v, 2, 7" value="1" type="GuiResourceData"/>
+<property name="note_gen.v, 84, 331" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 108, 101" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 115, 165, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 116, 160" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 120, 162, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 120, 164" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 126, 103, false, true, false, false, false" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 135, 195" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 148, 119" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 152, 103" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 157, 106" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 163, 103" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 167, 163" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 167, 294" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 181, 279" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 183, 159" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 297, 196" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 68, 256" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 89, 267" value="1" type="GuiResourceData"/>
+<property name="speaker.v, 99, 268" value="1" type="GuiResourceData"/>
+<property name="speaker_XDC.xdc, 343, 236" value="1" type="GuiResourceData"/>
+<property name="speaker_XDC.xdc, 346, 203" value="1" type="GuiResourceData"/>
+<property name="speaker_XDC.xdc, 381, 279" value="1" type="GuiResourceData"/>
+<property name="speaker_control.v, 136, 219" value="1" type="GuiResourceData"/>
+<property name="speaker_control.v, 165, 160" value="1" type="GuiResourceData"/>
+<property name="speaker_control.v, 186, 231" value="1" type="GuiResourceData"/>
+<property name="speaker_control.v, 49, 183" value="1" type="GuiResourceData"/>
+<property name="speaker_control.v, 76, 350" value="1" type="GuiResourceData"/>
+<property name="volume.v, 108, 367" value="1" type="GuiResourceData"/>
+<property name="volume.v, 112, 363" value="1" type="GuiResourceData"/>
+<property name="volume.v, 149, 323" value="1" type="GuiResourceData"/>
+<property name="volume.v, 49, 358" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="74" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="48" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

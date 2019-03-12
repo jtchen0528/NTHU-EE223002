@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new/frequency_divider.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Lab082.srcs/sources_1/new/volume.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Lab082.srcs/sources_1/new/speaker_control.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Lab082.srcs/sources_1/new/note_gen.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Lab082.srcs/sources_1/new/music.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Lab082.srcs/sources_1/new/speaker.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Lab082.srcs/sim_1/new/speaker_t.v" -i "../../../../../Lab05/lab05pre/lab05pre.srcs/sources_1/new"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

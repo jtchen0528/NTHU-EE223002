@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Apr 09 16:05:19 2018
+# Process ID: 16740
+# Current directory: D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab063/lab063.runs/synth_1
+# Command line: vivado.exe -log clock_disp2.vds -mode batch -messageDb vivado.pb -notrace -source clock_disp2.tcl
+# Log file: D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab063/lab063.runs/synth_1/clock_disp2.vds
+# Journal file: D:/Jack/NTHU/2018_spring/LD exp/Lab06/lab063/lab063.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source clock_disp2.tcl -notrace

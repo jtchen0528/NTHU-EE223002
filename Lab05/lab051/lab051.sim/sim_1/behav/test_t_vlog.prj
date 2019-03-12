@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../lab05pre/lab05pre.srcs/sources_1/new/downcounter.v" -i "../../../../lab05pre/lab05pre.srcs/sources_1/new" -i "../../../"
+verilog xil_defaultlib  "../../../lab051.srcs/sources_1/new/stopwatch2.v" -i "../../../../lab05pre/lab05pre.srcs/sources_1/new" -i "../../../"
+verilog xil_defaultlib  "../../../lab051.srcs/sim_1/new/test_t.v" -i "../../../../lab05pre/lab05pre.srcs/sources_1/new" -i "../../../"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

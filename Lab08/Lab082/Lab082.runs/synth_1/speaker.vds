@@ -1,0 +1,508 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Apr 24 21:04:00 2018
+# Process ID: 19592
+# Current directory: D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.runs/synth_1
+# Command line: vivado.exe -log speaker.vds -mode batch -messageDb vivado.pb -notrace -source speaker.tcl
+# Log file: D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.runs/synth_1/speaker.vds
+# Journal file: D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source speaker.tcl -notrace
+Command: synth_design -top speaker -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11804 
+WARNING: [Synth 8-2611] redeclaration of ansi port audio_sdin is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:13]
+WARNING: [Synth 8-2611] redeclaration of ansi port vol is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/volume.v:9]
+WARNING: [Synth 8-2611] redeclaration of ansi port note_div is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/music.v:7]
+WARNING: [Synth 8-2611] redeclaration of ansi port display is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:30]
+WARNING: [Synth 8-2611] redeclaration of ansi port display_c is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:31]
+WARNING: [Synth 8-2611] redeclaration of ansi port display is not allowed [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v:28]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 284.262 ; gain = 76.863
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'speaker' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:3]
+INFO: [Synth 8-638] synthesizing module 'freq_div' [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/frequency_divider.v:23]
+INFO: [Synth 8-256] done synthesizing module 'freq_div' (1#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/frequency_divider.v:23]
+INFO: [Synth 8-638] synthesizing module 'volume' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/volume.v:1]
+INFO: [Synth 8-256] done synthesizing module 'volume' (2#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/volume.v:1]
+INFO: [Synth 8-638] synthesizing module 'music' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/music.v:1]
+INFO: [Synth 8-256] done synthesizing module 'music' (3#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/music.v:1]
+INFO: [Synth 8-638] synthesizing module 'note_gen' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/note_gen.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/note_gen.v:37]
+WARNING: [Synth 8-5788] Register volu2_reg in module note_gen is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/note_gen.v:38]
+WARNING: [Synth 8-5788] Register volu_reg in module note_gen is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/note_gen.v:38]
+INFO: [Synth 8-256] done synthesizing module 'note_gen' (4#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/note_gen.v:1]
+INFO: [Synth 8-638] synthesizing module 'speaker_control' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:43]
+WARNING: [Synth 8-5788] Register audio_sdin_reg in module speaker_control is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:44]
+INFO: [Synth 8-256] done synthesizing module 'speaker_control' (5#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:1]
+INFO: [Synth 8-638] synthesizing module 'ssd' [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ssd' (6#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd.v:23]
+INFO: [Synth 8-638] synthesizing module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:23]
+INFO: [Synth 8-226] default block is never used [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:35]
+INFO: [Synth 8-256] done synthesizing module 'ssd_ctl' (7#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/ssd_ctl.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'display0' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:76]
+WARNING: [Synth 8-689] width (8) of port connection 'display1' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:77]
+WARNING: [Synth 8-689] width (8) of port connection 'display2' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:78]
+WARNING: [Synth 8-689] width (8) of port connection 'display3' does not match port width (15) of module 'ssd_ctl' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:79]
+INFO: [Synth 8-256] done synthesizing module 'speaker' (8#1) [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker.v:3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display0[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display1[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display2[6]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[0]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[1]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[2]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[3]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[4]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[5]
+WARNING: [Synth 8-3331] design ssd_ctl has unconnected port display3[6]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 303.172 ; gain = 95.773
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 303.172 ; gain = 95.773
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/constrs_1/new/speaker_XDC.xdc]
+Finished Parsing XDC File [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/constrs_1/new/speaker_XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/constrs_1/new/speaker_XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/speaker_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/speaker_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 594.309 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "sdincnt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U_SSD3' (ssd) to 'U_SSD2'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               22 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     18 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	  16 Input     16 Bit        Muxes := 2     
+	  11 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	  16 Input      1 Bit        Muxes := 1     
+	  32 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module volume 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module music 
+Detailed RTL Component Info : 
++---Registers : 
+	               22 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     18 Bit        Muxes := 1     
+Module note_gen 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	  16 Input     16 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+Module speaker_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  32 Input      1 Bit        Muxes := 1     
+Module ssd 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      8 Bit        Muxes := 1     
+Module ssd_ctl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'Usc/left_reg[15:0]' into 'Usc/right_reg[15:0]' [D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab082/Lab082.srcs/sources_1/new/speaker_control.v:26]
+WARNING: [Synth 8-3917] design speaker has port audio_sck driven by constant 1
+WARNING: [Synth 8-3917] design speaker has port display[7] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 594.309 ; gain = 386.910
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[0]' (FDC) to 'Ums/note_div_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[1]' (FDC) to 'Ums/note_div_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[2]' (FDC) to 'Ums/note_div_reg[21]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[3]' (FDC) to 'Ums/note_div_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[4]' (FDC) to 'Ums/note_div_reg[11]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[5]' (FDC) to 'Ums/note_div_reg[21]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[6]' (FDC) to 'Ums/note_div_reg[10]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[7]' (FDC) to 'Ums/note_div_reg[9]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[10]' (FDC) to 'Ums/note_div_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[11]' (FDC) to 'Ums/note_div_reg[17]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[16]' (FDC) to 'Ums/note_div_reg[21]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[18]' (FDC) to 'Ums/note_div_reg[21]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[19]' (FDC) to 'Ums/note_div_reg[21]'
+INFO: [Synth 8-3886] merging instance 'Ums/note_div_reg[20]' (FDC) to 'Ums/note_div_reg[21]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Ums/note_div_reg[21] )
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[1]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu2_reg[1]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[5]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu2_reg[5]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[13]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu2_reg[13]' (FDE) to 'Ung/volu2_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[3]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu2_reg[3]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[7]' (FDE) to 'Ung/volu2_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[15]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu2_reg[15]' (FDE) to 'Ung/volu2_reg[14]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[2]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu2_reg[2]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[6]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[14]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[4]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu2_reg[4]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[0]' (FDE) to 'Ung/volu2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Ung/volu2_reg[0] )
+INFO: [Synth 8-3886] merging instance 'Usc/right_reg[13]' (FDC) to 'Usc/right_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Usc/right_reg[15]' (FDC) to 'Usc/right_reg[14]'
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[9]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[10]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[11]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[12]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[13]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[14]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[15]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[16]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[17]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[18]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[19]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[20]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/clk_cnt_reg[21]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[21]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[20]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[19]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[18]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[16]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[11]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[10]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[7]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[6]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[5]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[4]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[3]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[2]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[1]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ums/note_div_reg[0]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[15]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[13]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/right_reg[15]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/right_reg[13]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/right_reg[5]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/right_reg[4]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/right_reg[3]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/right_reg[2]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/right_reg[1]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/right_reg[0]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[0]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[1]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[1]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[5]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[5]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[13]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[3]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[3]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[7]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[15]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[2]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[2]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[6]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[14]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[4]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[4]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[0]) is unused and will be removed from module speaker.
+INFO: [Synth 8-3886] merging instance 'Ung/volu_reg[9]' (FDE) to 'Ung/volu2_reg[8]'
+INFO: [Synth 8-3886] merging instance 'Ung/volu2_reg[7]' (FDE) to 'Ung/volu_reg[8]'
+WARNING: [Synth 8-3332] Sequential element (Ung/volu_reg[9]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Ung/volu2_reg[7]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Uvl/vol_reg[4]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/sdincnt_reg[5]) is unused and will be removed from module speaker.
+WARNING: [Synth 8-3332] Sequential element (Usc/sdincnt_reg[4]) is unused and will be removed from module speaker.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 594.309 ; gain = 386.910
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    18|
+|3     |LUT1   |    39|
+|4     |LUT2   |    34|
+|5     |LUT3   |    13|
+|6     |LUT4   |    10|
+|7     |LUT5   |     8|
+|8     |LUT6   |    13|
+|9     |MUXF7  |     1|
+|10    |FDCE   |    76|
+|11    |FDPE   |     5|
+|12    |FDRE   |    12|
+|13    |IBUF   |     7|
+|14    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+----------------+------+
+|      |Instance |Module          |Cells |
++------+---------+----------------+------+
+|1     |top      |                |   253|
+|2     |  Ufd    |freq_div        |    63|
+|3     |  Ums    |music           |    16|
+|4     |  Ung    |note_gen        |    81|
+|5     |  Usc    |speaker_control |    44|
+|6     |  Uvl    |volume          |    25|
++------+---------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 62 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 594.309 ; gain = 95.773
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 594.309 ; gain = 386.910
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+72 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 594.309 ; gain = 386.910
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 594.309 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 24 21:04:31 2018...

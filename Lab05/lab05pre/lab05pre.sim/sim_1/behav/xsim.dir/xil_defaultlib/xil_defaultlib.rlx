@@ -1,0 +1,10 @@
+0.4
+2016.2
+D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/global.v,1522414544,verilog,,,,,,,,,,,
+D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
+D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sim_1/new/lab05pre_t.v,1522423772,verilog,,,,,,../../../,,,,,
+D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/FSM.v,1522659068,verilog,,,D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/global.v,,,../../../,,,,,
+D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/downcounter.v,1522170249,verilog,,,D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/global.v,,,../../../,,,,,
+D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/freq_div2.v,1522423689,verilog,,,,,,../../../,,,,,
+D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/stopwatch.v,1522406215,verilog,,,D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/global.v,,,../../../,,,,,
+D:/Jack/NTHU/2018_spring/LD exp/Lab05/lab05pre/lab05pre.srcs/sources_1/new/stopwatchFSM.v,1522423713,verilog,,,,,,../../../,,,,,

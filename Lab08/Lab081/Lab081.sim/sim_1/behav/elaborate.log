@@ -1,0 +1,17 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Tools/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto e97e97f0b639464fae17210eb8c678d7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot speaker_control_t_behav xil_defaultlib.speaker_control_t xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab081/Lab081.srcs/sources_1/new/speaker_control.v" Line 23. Module speaker_control has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab081/Lab081.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab081/Lab081.srcs/sources_1/new/speaker_control.v" Line 23. Module speaker_control has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Jack/NTHU/2018_spring/LD exp/Lab08/Lab081/Lab081.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.speaker_control
+Compiling module xil_defaultlib.speaker_control_t
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot speaker_control_t_behav

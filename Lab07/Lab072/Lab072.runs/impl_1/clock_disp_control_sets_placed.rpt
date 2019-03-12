@@ -1,0 +1,138 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Apr 16 16:19:30 2018
+| Host         : Jack-GL552VW running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file clock_disp_control_sets_placed.rpt
+| Design       : clock_disp
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    85 |
+| Unused register locations in slices containing registers |   573 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |              52 |           33 |
+| No           | Yes                   | No                     |              32 |           27 |
+| Yes          | No                    | No                     |              12 |            6 |
+| Yes          | No                    | Yes                    |              33 |           30 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+-----------------------+--------------------------+------------------+----------------+
+|       Clock Signal       |     Enable Signal     |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++--------------------------+-----------------------+--------------------------+------------------+----------------+
+|  U_fsm/dig0_out_reg[1]_P |                       | U_fsm/dig0_out_reg[1]_C  |                1 |              1 |
+|  U_fsm/dig0_out_reg[2]_P |                       | U_fsm/dig0_out_reg[2]_C  |                1 |              1 |
+|  U_fsm/dig1_out_reg[1]_P |                       | U_fsm/dig1_out_reg[1]_C  |                1 |              1 |
+|  U_fsm/dig1_out_reg[2]_P |                       | U_fsm/dig1_out_reg[2]_C  |                1 |              1 |
+|  U_fsm/dig2_out_reg[1]_P |                       | U_fsm/dig2_out_reg[1]_C  |                1 |              1 |
+|  U_fsm/dig2_out_reg[2]_P |                       | U_fsm/dig2_out_reg[2]_C  |                1 |              1 |
+|  U_fsm/dig2_out_reg[3]_P |                       | U_fsm/dig2_out_reg[3]_C  |                1 |              1 |
+|  U_fsm/dig3_out_reg[2]_P |                       | U_fsm/dig3_out_reg[2]_C  |                1 |              1 |
+|  U_fsm/hr_reg[0]_P       |                       | U_fsm/hr_reg[0]_C        |                1 |              1 |
+|  U_fsm/hr_reg[1]_P       |                       | U_fsm/hr_reg[1]_C        |                1 |              1 |
+|  U_fsm/hr_reg[2]_P       |                       | U_fsm/hr_reg[2]_C        |                1 |              1 |
+|  U_fsm/hr_reg[3]_P       |                       | U_fsm/hr_reg[3]_C        |                1 |              1 |
+|  U_fsm/hr_reg[4]_P       |                       | U_fsm/hr_reg[4]_C        |                1 |              1 |
+|  U_fsm/hr_reg[5]_P       |                       | U_fsm/hr_reg[5]_C        |                1 |              1 |
+|  U_fsm/min_reg[0]_P      |                       | U_fsm/min_reg[0]_C_0     |                1 |              1 |
+|  U_fsm/min_reg[1]_P      |                       | U_fsm/min_reg[1]_C       |                1 |              1 |
+|  U_fsm/min_reg[2]_P      |                       | U_fsm/min_reg[2]_C       |                1 |              1 |
+|  U_fsm/min_reg[3]_P      |                       | U_fsm/min_reg[3]_C       |                1 |              1 |
+|  U_fsm/min_reg[4]_P      |                       | U_fsm/min_reg[4]_C       |                1 |              1 |
+|  U_fsm/min_reg[5]_P      |                       | U_fsm/min_reg[5]_C       |                1 |              1 |
+|  U_sw/dig0_out_reg[0]_P  |                       | U_sw/dig0_out_reg[0]_C   |                1 |              1 |
+|  U_sw/dig0_out_reg[3]_P  |                       | U_sw/dig0_out_reg[3]_C   |                1 |              1 |
+|  U_sw/dig1_out_reg[0]_P  |                       | U_sw/dig1_out_reg[0]_C   |                1 |              1 |
+|  U_sw/dig2_out_reg[0]_P  |                       | U_sw/dig2_out_reg[0]_C_0 |                1 |              1 |
+|  U_sw/dig3_out_reg[0]_P  |                       | U_sw/dig3_out_reg[0]_C   |                1 |              1 |
+|  U_sw/dig3_out_reg[1]_P  |                       | U_sw/dig3_out_reg[1]_C   |                1 |              1 |
+|  clk_d_BUFG              | U_sw/min[5]_P_i_1_n_0 | U_fsm/min_reg[4]_P       |                1 |              1 |
+|  clk_d_BUFG              | U_sw/min[5]_P_i_1_n_0 | U_fsm/min_reg[5]_P       |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/dig0_out_reg[1]_C  |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/dig0_out_reg[2]_C  |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/dig1_out_reg[1]_C  |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/dig2_out_reg[1]_C  |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/dig1_out_reg[2]_C  |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/dig2_out_reg[2]_C  |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/dig2_out_reg[3]_C  |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/dig3_out_reg[2]_C  |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/hr_reg[0]_C        |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/hr_reg[1]_C        |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/hr_reg[2]_C        |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/hr_reg[3]_C        |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/hr_reg[4]_C        |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/hr_reg[5]_C        |                1 |              1 |
+|  clk_d_BUFG              |                       | U_sw/dig2_out_reg[0]_C_0 |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/min_reg[0]_C_0     |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/min_reg[1]_C       |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/min_reg[2]_C       |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/min_reg[3]_C       |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/min_reg[4]_C       |                1 |              1 |
+|  clk_d_BUFG              |                       | U_fsm/min_reg[5]_C       |                1 |              1 |
+|  clk_d_BUFG              |                       | U_sw/dig0_out_reg[0]_C   |                1 |              1 |
+|  clk_d_BUFG              |                       | U_sw/dig0_out_reg[3]_C   |                1 |              1 |
+|  clk_d_BUFG              |                       | U_sw/dig1_out_reg[0]_C   |                1 |              1 |
+|  clk_d_BUFG              |                       | U_sw/dig3_out_reg[0]_C   |                1 |              1 |
+|  clk_d_BUFG              |                       | U_sw/dig3_out_reg[1]_C   |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_fsm/dig0_out_reg[1]_P  |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_fsm/dig0_out_reg[2]_P  |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_fsm/dig1_out_reg[1]_P  |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_fsm/dig1_out_reg[2]_P  |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_fsm/dig2_out_reg[1]_P  |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_fsm/dig2_out_reg[2]_P  |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_fsm/dig2_out_reg[3]_P  |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_fsm/dig3_out_reg[2]_P  |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_sw/dig0_out_reg[0]_P   |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_sw/dig0_out_reg[3]_P   |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_sw/dig1_out_reg[0]_P   |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_sw/dig2_out_reg[0]_P   |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_sw/dig3_out_reg[0]_P   |                1 |              1 |
+|  clk_d_BUFG              | U_fsm/p_2_in          | U_sw/dig3_out_reg[1]_P   |                1 |              1 |
+|  clk_d_BUFG              | U_sw/hr[5]_P_i_1_n_0  | U_fsm/hr_reg[0]_P        |                1 |              1 |
+|  clk_d_BUFG              | U_sw/hr[5]_P_i_1_n_0  | U_fsm/hr_reg[1]_P        |                1 |              1 |
+|  clk_d_BUFG              | U_sw/hr[5]_P_i_1_n_0  | U_fsm/hr_reg[2]_P        |                1 |              1 |
+|  clk_d_BUFG              | U_sw/hr[5]_P_i_1_n_0  | U_fsm/hr_reg[3]_P        |                1 |              1 |
+|  clk_d_BUFG              | U_sw/hr[5]_P_i_1_n_0  | U_fsm/hr_reg[4]_P        |                1 |              1 |
+|  clk_d_BUFG              | U_sw/hr[5]_P_i_1_n_0  | U_fsm/hr_reg[5]_P        |                1 |              1 |
+|  clk_d_BUFG              | U_sw/leds             | U_fsm/rst_d              |                1 |              1 |
+|  clk_d_BUFG              | U_sw/min[5]_P_i_1_n_0 | U_fsm/min_reg[0]_P       |                1 |              1 |
+|  clk_d_BUFG              | U_sw/min[5]_P_i_1_n_0 | U_fsm/min_reg[1]_P       |                1 |              1 |
+|  clk_d_BUFG              | U_sw/min[5]_P_i_1_n_0 | U_fsm/min_reg[2]_P       |                1 |              1 |
+|  clk_d_BUFG              | U_sw/min[5]_P_i_1_n_0 | U_fsm/min_reg[3]_P       |                1 |              1 |
+|  clk_d_BUFG              |                       |                          |                2 |              2 |
+|  clk_d_BUFG              |                       | U_fsm/in2_latch_temp     |                1 |              6 |
+|  clk_d_BUFG              | U_fsm/en              | U_fsm/rst_d              |                3 |              6 |
+|  clk_d_BUFG              | U_fsm/E[0]            |                          |                3 |              6 |
+|  clk_d_BUFG              | U_fsm/init_hr_reg[5]  |                          |                3 |              6 |
+|  clk_IBUF_BUFG           |                       | U_fsm/rst_d              |                7 |             26 |
++--------------------------+-----------------------+--------------------------+------------------+----------------+
+
+

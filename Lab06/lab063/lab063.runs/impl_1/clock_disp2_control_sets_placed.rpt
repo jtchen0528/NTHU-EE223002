@@ -1,0 +1,105 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Apr 09 16:06:23 2018
+| Host         : DESKTOP-RAKK9JQ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file clock_disp2_control_sets_placed.rpt
+| Design       : clock_disp2
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    52 |
+| Unused register locations in slices containing registers |   321 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              23 |           11 |
+| No           | No                    | Yes                    |              60 |           40 |
+| No           | Yes                   | No                     |              14 |           14 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              46 |           17 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+-----------------------+---------------------------+------------------+----------------+
+|        Clock Signal        |     Enable Signal     |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++----------------------------+-----------------------+---------------------------+------------------+----------------+
+|  U_fsm/led2                |                       |                           |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig3_out_reg[1]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig3_out_reg[2]_C    |                1 |              1 |
+|  uutt/dig0_out_reg[0]_P    |                       | uutt/dig0_out_reg[0]_C    |                1 |              1 |
+|  uutt/dig0_out_reg[1]_P    |                       | uutt/dig0_out_reg[1]_C    |                1 |              1 |
+|  uutt/dig0_out_reg[2]_P    |                       | uutt/dig0_out_reg[2]_C    |                1 |              1 |
+|  uutt/dig0_out_reg[3]_P    |                       | uutt/dig0_out_reg[3]_C    |                1 |              1 |
+|  uutt/dig1_out_reg[0]_P    |                       | uutt/dig1_out_reg[0]_C    |                1 |              1 |
+|  uutt/dig1_out_reg[1]_P    |                       | uutt/dig1_out_reg[1]_C    |                1 |              1 |
+|  uutt/dig1_out_reg[2]_P_16 |                       | uutt/dig1_out_reg[2]_C    |                1 |              1 |
+|  uutt/dig2_out_reg[0]_P    |                       | uutt/dig2_out_reg[0]_C    |                1 |              1 |
+|  uutt/dig2_out_reg[1]_P    |                       | uutt/dig2_out_reg[1]_C    |                1 |              1 |
+|  uutt/dig2_out_reg[2]_P_0  |                       | uutt/dig2_out_reg[2]_C    |                1 |              1 |
+|  uutt/dig2_out_reg[3]_P_1  |                       | uutt/dig2_out_reg[3]_C    |                1 |              1 |
+|  uutt/dig3_out_reg[0]_P    |                       | uutt/dig3_out_reg[0]_C    |                1 |              1 |
+|  uutt/dig3_out_reg[1]_P    |                       | uutt/dig3_out_reg[1]_C    |                1 |              1 |
+|  uutt/dig3_out_reg[2]_P_0  |                       | uutt/dig3_out_reg[2]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig3_out_reg[2]_P_0  |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig0_out_reg[0]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig0_out_reg[0]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig0_out_reg[1]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig0_out_reg[1]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig0_out_reg[2]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig0_out_reg[2]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig0_out_reg[3]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig0_out_reg[3]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig1_out_reg[0]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig1_out_reg[0]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig1_out_reg[1]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig1_out_reg[1]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig1_out_reg[2]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig1_out_reg[2]_P_16 |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig2_out_reg[0]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig2_out_reg[0]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig2_out_reg[1]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig2_out_reg[1]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig2_out_reg[2]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig2_out_reg[2]_P_0  |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig2_out_reg[3]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig2_out_reg[3]_P_1  |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig3_out_reg[0]_C    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig3_out_reg[0]_P    |                1 |              1 |
+|  clk_d_BUFG                |                       | uutt/dig3_out_reg[1]_C    |                1 |              1 |
+|  U_fsm/mode_n_0            |                       |                           |                2 |              6 |
+|  clk_d_BUFG                | uutt/date[5]_i_1_n_0  | rst_IBUF                  |                2 |              6 |
+|  clk_d_BUFG                | uutt/hr[5]_i_1_n_0    | rst_IBUF                  |                3 |              6 |
+|  clk_d_BUFG                | uutt/min[5]_i_1_n_0   | rst_IBUF                  |                3 |              6 |
+|  clk_d_BUFG                | uutt/month[5]_i_1_n_0 | rst_IBUF                  |                3 |              6 |
+|  clk_d_BUFG                |                       | rst_IBUF                  |                6 |             11 |
+|  U_fsm/E[0]                |                       |                           |                8 |             16 |
+|  clk_IBUF_BUFG             |                       | rst_IBUF                  |                6 |             21 |
+|  clk_d_BUFG                | uutt/date15_out       | rst_IBUF                  |                6 |             22 |
++----------------------------+-----------------------+---------------------------+------------------+----------------+
+
+

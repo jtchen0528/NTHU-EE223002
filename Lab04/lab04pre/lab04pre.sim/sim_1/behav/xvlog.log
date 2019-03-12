@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab04/lab04pre/lab04pre.srcs/sources_1/new/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab04/lab04pre/lab04pre.srcs/sources_1/new/frequency.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab04/lab04pre/lab04pre.srcs/sources_1/new/lab04pre.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab04pre
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab04/lab04pre/lab04pre.srcs/sim_1/new/lab04pre_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab04pre_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Jack/NTHU/2018_spring/LD exp/Lab04/lab04pre/lab04pre.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

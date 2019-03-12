@@ -1,0 +1,1 @@
+-wto "e97e97f0b639464fae17210eb8c678d7" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "speaker_control_t_behav" "xil_defaultlib.speaker_control_t" "xil_defaultlib.glbl" -log "elaborate.log" 
